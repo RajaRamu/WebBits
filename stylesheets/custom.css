@@ -1,0 +1,7 @@
+#edition section{
+    padding-bottom: 25px;
+}
+
+#edition h2, #edition h3{
+    text-transform: capitalize;
+}
