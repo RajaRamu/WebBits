@@ -1,7 +1,27 @@
 [
   {
-    "url": "http://blog.com/cool-tech-story",
     "headline": "This is a cool tech story",
-    "category": "Commerce | CSS | Technology | Featured | etc..."
-  }
+    "url": "http://blog.com/cool-tech-story",
+    "category": "Featured"
+  },{
+    "headline": "This is a cool tech story",
+    "url": "http://blog.com/cool-tech-story",
+    "category": "Featured"
+  },{
+    "headline": "This is a cool tech story",
+    "url": "http://blog.com/cool-tech-story",
+    "category": "Commerce"
+  },{
+    "headline": "This is a cool tech story",
+    "url": "http://blog.com/cool-tech-story",
+    "category": "Commerce"
+  },{
+    "headline": "This is a cool tech story",
+    "url": "http://blog.com/cool-tech-story",
+    "category": ""
+  },{
+    "headline": "This is a cool tech story",
+    "url": "http://blog.com/cool-tech-story",
+    "category": ""
+  },
 ]
