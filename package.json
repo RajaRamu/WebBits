@@ -1,0 +1,22 @@
+{
+  "name": "webbits",
+  "version": "1.0.0",
+  "description": "News Bits",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "find . -name \"*json\" | xargs node test/index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmarkus/WebBits.git"
+  },
+  "author": "lmarkus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmarkus/WebBits/issues"
+  },
+  "homepage": "https://github.com/lmarkus/WebBits#readme"
+}
