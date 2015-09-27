@@ -10,8 +10,8 @@ A story format is just:
 
 ```json
 {
-    url: "http://blog.com/cool-tech-story",
-    headline: "This is a cool tech story"
-    category: "Commerce | CSS | Technology | Featured | etc..." 
+    "url": "http://blog.com/cool-tech-story",
+    "headline": "This is a cool tech story",
+    "category": "Commerce | CSS | Technology | Featured | etc..." 
 }
 ```
