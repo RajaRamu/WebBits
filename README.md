@@ -1,6 +1,8 @@
 # WebBits
 Web / Tech /eCommerce news repository.
 
+![Travis-CI](https://travis-ci.org/lmarkus/WebBits.svg)
+
 **current.json**: News bits shown by default.
 **next.json**: Buffer for next week's edition.
 
