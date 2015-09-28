@@ -1,0 +1,7 @@
+<ul>
+    {#archive}
+        <li>
+            <a href="#{.}" class="archiveStory">{.}</a>
+        </li>
+    {/archive}
+</ul>

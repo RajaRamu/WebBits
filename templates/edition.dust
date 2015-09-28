@@ -1,14 +1,16 @@
 <h2>{edition} edition</h2>
-    {#content}
-        <section>
-            <h3>{.category}</h3>
-            <ul>
-                {#.stories}
-                    <li>
-                        <strong>{.headline}</strong><br>
-                        <a href="{.url}" target="_blank">{.url}</a>
-                    </li>
-                {/.stories}
-            </ul>
-        </section>
-    {/content}
+{#content}
+    <section>
+        <h3>{.category}</h3>
+        <ul>
+            {#.stories}
+                <li>
+                    <strong>{.headline}</strong><br>
+                    {#.urls}
+                        <small><a href="{.}" target="_blank">{.}</a></small>{@sep}<br>{/sep}
+                    {/.urls}
+                </li>
+            {/.stories}
+        </ul>
+    </section>
+{/content}

@@ -4,6 +4,25 @@
 $(function () {
 
     /**
+     * Retrieve the archived editions (by reading the contents of the github 'archive' directory, and render them.
+     * Archived editions are named YYYY-MM-DD.json
+     */
+    function loadArchive() {
+        $.getJSON('https://api.github.com/repos/lmarkus/WebBits/contents/archive?callback=?', function (response) {
+            var archive = response.data
+                .map(function (archivedStory) {
+                    return archivedStory.name.split('.json')[0]; //Strip the .json extension
+                })
+                .sort()
+                .reverse(); //Display most recent first.
+
+            dust.render('archive', {archive: archive}, function (err, out) {
+                $('#archive').html(out);
+            });
+        });
+    }
+
+    /**
      * Take an ad-hoc collection of stories, and order them by category.
      * Rules: "Featured" content always goes at the beginning, "Rest of the crop" goes at the end. Everything else is alpha-ordered
      * @param content
@@ -33,7 +52,12 @@ $(function () {
         return ret;
     }
 
+    /**
+     * Given a certain edition, retrieve the .json file with the stories from GitHub, and render them
+     * @param edition
+     */
     function renderEdition(edition) {
+        var editionName = edition;
         if (edition !== 'current') {
             edition = '/archive/' + edition;
         }
@@ -46,21 +70,40 @@ $(function () {
 
             //reshuffle stories per category
             content = orderContent(content);
-            console.log(content);
-            dust.render('edition', {edition: edition, content: content}, function (err, out) {
+            dust.render('edition', {edition: editionName, content: content}, function (err, out) {
                 $('#edition').html(out);
             });
         })
 
     }
 
+    /**
+     * Utility function. Returns the current window hash value
+     * @returns {string}
+     */
+    function getHash(){
+        return window.location.hash.slice(1);
+    }
+
     //Load templates
-    $.get('templates/edition.dust', function (data) {
-            dust.loadSource(dust.compile(data, 'edition'));
-        }
-    ).then(function () {
-            console.log('done');
-            renderEdition('current');
+    var templates = ['templates/edition.dust', 'templates/archive.dust'];
+
+    var deferreds = templates.map(function (template) {
+        var templateName = template.match(/\/(.+)\.dust/)[1];
+        return $.get(template, function (data) {
+                dust.loadSource(dust.compile(data, templateName));
+            }
+        );
+    });
+
+    $.when.apply(null, deferreds) //This is the jQuery recommended way of awaiting for an array of deferreds to complete
+        .done(function () {
+            loadArchive();
+            renderEdition(getHash() || 'current'); //Render from hash, in case somebody links to an old edition
         });
+
+    $(window).on('hashchange',function(){
+        renderEdition(getHash());
+    })
 
 });
