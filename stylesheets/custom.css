@@ -51,7 +51,18 @@ section.archive {
 }
 
 @media print, screen and (max-width: 720px) {
-    header {
 
+    body {
+        padding: 25px 50px
+    }
+    header, footer {
+        padding: 0 0 20px 0;
+        position: static;
+        float:none;
+        width: auto;
+    }
+
+    #edition {
+        padding-left: 0;
     }
 }
