@@ -11,10 +11,19 @@ var fs = require('fs'),
 
 files.forEach(function (f) {
 //These files are small enough to handle in-memory. No need to process a stream
-    var file = path.resolve(f),
+    var outfile,
+        file = path.resolve(f),
         fileExt = path.extname(file),
-        data = fs.readFileSync(file).toString('utf-8'),
-        outfile = '../archive/' + path.basename(file, fileExt) + '.json';
+        fileName = path.basename(file, fileExt),
+        data = fs.readFileSync(file).toString('utf-8');
+
+    //0-Pad months and days in output file. Much easier to do here than in applescript
+    fileName = fileName.split('-');
+    fileName[1] = ('0'+fileName[1]).slice(-2);
+    fileName[2] = ('0'+fileName[2]).slice(-2);
+    fileName = fileName.join('-');
+
+    outfile = '../archive/' + fileName + '.json';
 
 //Split using the email message section boundary. In outlook they look like: --B_3526195156_1294540168
 //[0] -> Header
