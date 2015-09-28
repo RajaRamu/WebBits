@@ -1,0 +1,170 @@
+[
+  {
+    "category": "Featured",
+    "headline": "How to Become a Great Front-End Engineer",
+    "urls": [
+      "http://philipwalton.com/articles/how-to-become-a-great-front-end-engineer/"
+    ]
+  },
+  {
+    "category": "Featured",
+    "headline": "Nearly Half of developers are self taught",
+    "urls": [
+      "http://www.infoworld.com/article/2908474/application-development/stack-overflow-survey-finds-nearly-half-have-no-degree-in-computer-science.html\">Link</a"
+    ]
+  },
+  {
+    "category": "Featured",
+    "headline": "How to Make Tough Decisions Quickly",
+    "urls": [
+      "http://qz.com/465060/the-art-of-knowing-when-to-make-a-decision/"
+    ]
+  },
+  {
+    "category": "Featured",
+    "headline": "Hacks turn Square reader into a card-stealing machine",
+    "urls": [
+      "http://www.engadget.com/2015/08/03/square-reader-card-skimming-hack/"
+    ]
+  },
+  {
+    "category": "Featured",
+    "headline": "The ES6 Conundrum",
+    "urls": [
+      "http://www.sitepoint.com/the-es6-conundrum/"
+    ]
+  },
+  {
+    "category": "Commerce",
+    "headline": "Apple Pay Hitting a Wall with Australian Banks",
+    "urls": [
+      "http://mashable.com/2015/08/16/apple-pay-australian-banks/"
+    ]
+  },
+  {
+    "category": "Commerce",
+    "headline": "Rite-Aid to begin taking Apple Pay",
+    "urls": [
+      "http://appleinsider.com/articles/15/08/11/rite-aid-to-begin-taking-apple-pay-other-wireless-payments-on-aug-15"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Why we should stop using Bower and how to do it",
+    "urls": [
+      "http://gofore.com/ohjelmistokehitys/stop-using-bower/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "node-cobol: You know you have arrived when your language is bridged to COBOL",
+    "urls": [
+      "https://github.com/IonicaBizau/node-cobol/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "The Hamburger Menu doesn't work",
+    "urls": [
+      "http://deep.design/the-hamburger-menu/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "GitHub repo with the new HTML5 standard",
+    "urls": [
+      "https://github.com/whatwg/html"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Pushing the performance limits of node.js",
+    "urls": [
+      "http://www.jut.io/blog/2015/pushing-node-js-performance-limits"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Flash-free clipboard for the web",
+    "urls": [
+      "https://hacks.mozilla.org/2015/09/flash-free-clipboard-for-the-web/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "A JS library for efficient data fetching from Netflix",
+    "urls": [
+      "http://netflix.github.io/falcor/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "JS Debugging Tips and Tricks",
+    "urls": [
+      "http://www.zsoltnagy.eu/javascript-debugging-tips-and-tricks/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Node app makes into Apple's App Store",
+    "urls": [
+      "http://nubisa.com/first-node-js-application-is-accepted-to-apples-app-store/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Edge: Windows finally has a good browser",
+    "urls": [
+      "http://www.theverge.com/2015/7/29/9066255/microsoft-windows-edge-browser-review"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Measuring Page Load Time a different way",
+    "urls": [
+      "http://www.sitepoint.com/speed-index-measuring-page-load-time-different-way/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "JS Framework longetivity",
+    "urls": [
+      "http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Debugging Memory Leaks in Node.js",
+    "urls": [
+      "http://blog.yld.io/2015/08/10/debugging-memory-leaks-in-node-js-a-walkthrough/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Measuring JavaScript Function Performance",
+    "urls": [
+      "http://www.sitepoint.com/measuring-javascript-functions-performance/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Defusing race conditions when using Promises",
+    "urls": [
+      "https://quickleft.com/blog/defusing-race-conditions-when-using-promises/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Netflix adopts Universal JS, Drops Java from rendering pipeline",
+    "urls": [
+      "http://www.infoq.com/news/2015/08/netflix-universal-javascript"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "A Web Developer Walks into a bar...",
+    "urls": [
+      "https://medium.com/@jerstew/web-development-jokes-d97bc7c8891b>"
+    ]
+  }
+]

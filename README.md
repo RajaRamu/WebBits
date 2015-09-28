@@ -3,8 +3,8 @@ Web / Tech /eCommerce news repository.
 
 ![Travis-CI](https://travis-ci.org/lmarkus/WebBits.svg)
 
-**current.json**: News bits shown by default.
-**next.json**: Buffer for next week's edition.
+* **current.json**: News bit shown by default.
+* **next.json**: Buffer for next week's edition.
 
 If you have any news bits you'd like to contribute, add them to `next.json`
 
