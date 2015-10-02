@@ -18,7 +18,7 @@ tell application "Microsoft Outlook"
 		#Format: YYYY-M-D
 		set {year:y, month:m, day:d} to time sent of msg
 		set outDate to ((y & "-" & (m as integer) & "-" & d) as string)
-		set fileName to ("~/dev/WebBits/archive/" & outDate & ".txt")
+		set fileName to ("~/dev/WebBits/out/" & outDate & ".txt")
 		
 		#Write To File
 		my wtf((source of msg) as string, fileName)

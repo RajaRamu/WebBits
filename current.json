@@ -1,191 +1,233 @@
 [
   {
     "category": "Featured",
-    "headline": "Should we treat ourselves like code?",
+    "headline": "Everything is awful and I'm not OK",
     "urls": [
-      "https://medium.com/life-learning/code-life-1a44121290a1"
+      "http://eponis.tumblr.com/post/113798088670/everything-is-awful-and-im-not-okay-questions-to"
     ]
   },
   {
     "category": "Featured",
-    "headline": "Rituals to make you happy",
+    "headline": "Let 1,000 flowers bloom. Then rip them out by the roots",
     "urls": [
-      "http://www.bakadesuyo.com/2015/09/make-you-happy-2/"
+      "http://www.gigamonkeys.com/flowers/"
     ]
   },
   {
     "category": "Featured",
-    "headline": "Why PayPal executive is being mentored by his millenial employees",
+    "headline": "Books that may change your life",
     "urls": [
-      "http://www.fastcompany.com/welcome.html?destination=http://www.fastcompany.com/3051164/lessons-learned/why-a-paypal-executive-is-being-mentored-by-his-millennial-employees"
+      "http://www.legalnomads.com/2015/09/books.html"
     ]
   },
   {
     "category": "Featured",
-    "headline": "Why Hiring is so hard in tech",
+    "headline": "The Genius of Learning",
     "urls": [
-      "https://medium.com/javascript-scene/why-hiring-is-so-hard-in-tech-c462c3230017"
+      "http://nautil.us/issue/28/2050/the-genius-of-learning"
     ]
   },
   {
     "category": "Featured",
-    "headline": "Why remote working works for us",
+    "headline": "Best time for a break might be mid morning",
     "urls": [
-      "https://www.groovehq.com/blog/remote-work-tips"
+      "http://lifehacker.com/the-best-time-for-a-break-might-be-the-mid-morning-not-1731512719"
+    ]
+  },
+  {
+    "category": "Featured",
+    "headline": "Exceptional employees have emotional intelligence",
+    "urls": [
+      "https://www.linkedin.com/pulse/do-you-have-right-personality-successful-dr-travis-bradberry"
+    ]
+  },
+  {
+    "category": "Featured",
+    "headline": "Why Performance matters: The perception of time",
+    "urls": [
+      "http://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/"
     ]
   },
   {
     "category": "Commerce",
-    "headline": "Google Wallet for iOS now lets you easily send/receive money from contacts",
+    "headline": "PayPal's new chip card reader accepts Apple and Android Pay",
     "urls": [
-      "http://thenextweb.com/apps/2015/09/22/google-wallet-for-ios-now-lets-you-send-and-receive-money-from-contacts-easily/"
+      "http://thenextweb.com/gadgets/2015/09/28/paypals-new-chip-card-reader-accepts-apple-and-android-pay/"
     ]
   },
   {
     "category": "Commerce",
-    "headline": "CurrencyFair's money exchange app has lower rates than PayPal and Stripe",
+    "headline": "World's first contactless payment ring",
     "urls": [
-      "http://thenextweb.com/apps/2015/09/23/currencyfairs-new-money-exchange-app-offers-lower-rates-than-paypal-and-stripe/"
+      "http://www.talkandroid.com/266801-kerv-is-the-worlds-first-contactless-payment-ring-that-never-needs-to-be-charged-or-connected-to-a-smartphone/"
     ]
   },
   {
     "category": "Commerce",
-    "headline": "Holiday Shoppers value free over fast shipping",
+    "headline": "With stolen cards, Fraudsters Shop to Drop",
     "urls": [
-      "http://www.businessinsider.com/holiday-shoppers-free-over-fast-shipping-2015-9"
+      "http://krebsonsecurity.com/2015/09/with-stolen-cards-fraudsters-shop-to-drop/"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Why tech companies rule in leading change",
+    "headline": "US Government releases new design standards",
     "urls": [
-      "http://fortune.com/2015/09/11/pasmore-leading-continuous-change/?xid=soc_socialflow_twitter_FORTUNE"
+      "http://thenextweb.com/creativity/2015/09/28/us-government-releases-new-design-standards-so-its-websites-can-stop-being-ugly/"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "GitHub open sources a tool to teach students to code",
+    "headline": "SSDs on notice from photonics",
     "urls": [
-      "http://www.wired.com/2015/09/github-open-sources-tool-teaches-students-code/"
+      "http://www.engadget.com/2015/09/28/first-nano-photonic-memory-chip/"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Facebook seeks patent on process to id your camera and images",
+    "headline": "The wheel is spinning but the hamster is almost dead (Talk by Chris Heilmann)",
     "urls": [
-      "http://thenextweb.com/facebook/2015/09/22/facebook-seeks-patent-on-process-that-would-id-your-camera-and-images/"
+      "http://www.slideshare.net/cheilmann/the-wheel-is-spinning-but-the-hamster-is-almost-dead-smartweb-2015"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "The secret of Apple's new San Francisco font - who remembers the original Mac San Francisco ransom note font?",
+    "headline": "Contribute to the HTML standard",
     "urls": [
-      "https://medium.com/@mach/the-secret-of-san-francisco-fonts-4b5295d9a745"
+      "https://wiki.mozilla.org/Outreachy/2016/December_to_March#Contribute_to_the_HTML_Standard.21"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "The toxic side of jsbin",
+    "headline": "The inside story behind MS08-67: A security exploit",
     "urls": [
-      "https://remysharp.com/2015/09/14/jsbin-toxic-part-1"
+      "http://blogs.technet.com/b/johnla/archive/2015/09/26/the-inside-story-behind-ms08-067.aspx"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Principles of cross platform development",
+    "headline": "Brain implants help the paralyzed type faster",
     "urls": [
-      "https://medium.com/ben-and-dion/the-principles-of-cross-platform-development-5eb8b34acab9"
+      "http://www.engadget.com/2015/09/28/brain-implants-help-paralyzed-type-faster/"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Google's new compression algorithm",
+    "headline": "We've got this whole unicorn thing all wrong",
     "urls": [
-      "http://thenextweb.com/insider/2015/09/22/googles-new-brotli-compression-algorithm-is-26-percent-better-than-existing-solutions/"
+      "https://medium.com/the-wtf-economy/we-ve-got-this-whole-unicorn-thing-all-wrong-3f3d108cc71d"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Curry or Partial Applications",
+    "headline": "Twitter's tips for making Software engineers more efficient",
     "urls": [
-      "https://medium.com/javascript-scene/curry-or-partial-application-8150044c78b8"
+      "http://spectrum.ieee.org/view-from-the-valley/computing/software/twitters-tips-for-making-software-engineers-more-efficient>"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Facebook will accelerate Web Push Notifications",
+    "headline": "Mobile browser traffic is 2x bigger than app traffic and growing",
     "urls": [
-      "http://insights.mobify.com/facebook-will-accelerate-adoption-of-web-push-notifications/"
+      "http://venturebeat.com/2015/09/25/wait-what-mobile-browser-traffic-is-2x-bigger-than-app-traffic-and-growing-faster/"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Dealing with long words in CSS",
+    "headline": "The best regex trick ever",
     "urls": [
-      "https://justmarkup.com/log/2015/07/31/dealing-with-long-words-in-css/"
+      "http://www.rexegg.com/regex-best-trick.html"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Getting responsive tables to behave",
+    "headline": "How to build a high velocity development team",
     "urls": [
-      "http://joshnh.com/weblog/getting-responsive-tables-to-behave/"
+      "https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021#9e87--share-0-57"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Comprehensive list of what forces layout/reflow",
+    "headline": "Why I use tape instead of mocha",
     "urls": [
-      "https://gist.github.com/paulirish/5d52fb081b3570c81e3a"
+      "https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Using Templates to delay image loading",
+    "headline": "Curated list of resources on JS Promises",
     "urls": [
-      "http://christianheilmann.com/2015/09/08/quick-trick-using-template-to-delay-loading-of-images"
+      "https://github.com/wbinnssmith/awesome-promises"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Aurelia - Yet another JS Framework",
+    "headline": "Promise visualization playground",
     "urls": [
-      "http://aurelia.io/index.html"
+      "http://bevacqua.github.io/promisees/"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Microsoft Edge and versioning",
+    "headline": "Make ES6, not coffee",
     "urls": [
-      "https://blogs.windows.com/msedgedev/2015/09/21/understanding-versions-in-an-evergreen-browser/"
+      "http://gofore.com/ohjelmistokehitys/make-es6-coffee/"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Inside Amazon's Cloud Computing Infrastructure",
+    "headline": "ES6 generators and asynch JavaScript",
     "urls": [
-      "http://datacenterfrontier.com/inside-amazon-cloud-computing-infrastructure/"
+      "http://alexperry.io/javascript/2015/09/17/es6-generators-and-asynchronous-javascript.html"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Debugging memory leaks in Node.js applications",
+    "headline": "ES6 Array extensions in depth",
     "urls": [
-      "http://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications"
+      "http://ponyfoo.com/articles/es6-array-extensions-in-depth"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "ECMAScript moves to GitHub",
+    "headline": "Assessing employee performance",
     "urls": [
-      "https://github.com/tc39/ecma262/releases/tag/es2016-draft-1s"
+      "https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a"
     ]
   },
   {
     "category": "The Rest of the Crop",
-    "headline": "Keep Out! - A WebGL game",
+    "headline": "Guide to JS Engines",
     "urls": [
-      "http://www.playkeepout.com/"
+      "http://developer.telerik.com/featured/a-guide-to-javascript-engines-for-idiots/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Google's 3 tips for sabotaging the cybercrime economy",
+    "urls": [
+      "http://www.wired.com/2015/09/google-offers-3-lessons-crippling-online-crime-economy/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Family Guy's Brian Griffin in pure CSS",
+    "urls": [
+      "http://codepen.io/rachel_web/pen/VveQPW"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Image diffing using CSS",
+    "urls": [
+      "http://franklinta.com/2014/11/30/image-diffing-using-css/"
+    ]
+  },
+  {
+    "category": "The Rest of the Crop",
+    "headline": "Which languages curse the most",
+    "urls": [
+      "https://pbs.twimg.com/media/BwCbF1KIYAE-Y2o.png"
     ]
   }
 ]
