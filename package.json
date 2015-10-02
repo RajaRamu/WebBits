@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "find . -name \"*json\" | xargs node test/index.js "
+    "test": "find . -name \"*json\" | xargs node test/index.js ",
+    "validate": "grunt index && git add archives.json"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/lmarkus/WebBits/issues"
   },
-  "homepage": "https://github.com/lmarkus/WebBits#readme"
+  "homepage": "https://github.com/lmarkus/WebBits#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "precommit-hook": "^3.0.0"
+  },
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ]
 }
