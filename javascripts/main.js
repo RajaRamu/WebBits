@@ -8,11 +8,8 @@ $(function () {
      * Archived editions are named YYYY-MM-DD.json
      */
     function loadArchive() {
-        $.getJSON('https://api.github.com/repos/lmarkus/WebBits/contents/archive?callback=?', function (response) {
-            var archive = response.data
-                .map(function (archivedStory) {
-                    return archivedStory.name.split('.json')[0]; //Strip the .json extension
-                })
+        $.getJSON('https://raw.githubusercontent.com/lmarkus/WebBits/master/archives.json', function (archive) {
+            var archive = archive
                 .sort()
                 .reverse(); //Display most recent first.
 
@@ -62,11 +59,8 @@ $(function () {
             edition = '/archive/' + edition;
         }
 
-        $.getJSON('https://api.github.com/repos/lmarkus/WebBits/contents/' + edition + '.json?callback=?', function (results) {
-            var tmp = {},
-                content = results.data.content;
-            //Decode from Base64 and parse JSON
-            content = JSON.parse(window.atob(content));
+        $.getJSON('https://raw.githubusercontent.com/lmarkus/WebBits/master/' + edition + '.json', function (content) {
+            var tmp = {};
 
             //reshuffle stories per category
             content = orderContent(content);
@@ -81,7 +75,7 @@ $(function () {
      * Utility function. Returns the current window hash value
      * @returns {string}
      */
-    function getHash(){
+    function getHash() {
         return window.location.hash.slice(1);
     }
 
@@ -102,7 +96,7 @@ $(function () {
             renderEdition(getHash() || 'current'); //Render from hash, in case somebody links to an old edition
         });
 
-    $(window).on('hashchange',function(){
+    $(window).on('hashchange', function () {
         renderEdition(getHash());
     })
 
