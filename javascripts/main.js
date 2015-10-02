@@ -8,7 +8,7 @@ $(function () {
      * Archived editions are named YYYY-MM-DD.json
      */
     function loadArchive() {
-        $.getJSON('https://raw.githubusercontent.com/lmarkus/WebBits/master/archives.json', function (archive) {
+        $.getJSON('https://raw.githubusercontent.com/lmarkus/WebBits/master/archive.json', function (archive) {
             var archive = archive
                 .sort()
                 .reverse(); //Display most recent first.
