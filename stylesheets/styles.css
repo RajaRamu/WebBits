@@ -97,7 +97,7 @@ img {
 header {
     width: 270px;
     float: left;
-    position: fixed;
+    position: inline-block;
 }
 
 header ul {
@@ -153,9 +153,6 @@ hr {
 
 footer {
     width: 270px;
-    float: left;
-    position: fixed;
-    bottom: 50px;
 }
 
 @media print, screen and (max-width: 720px) {
