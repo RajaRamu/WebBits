@@ -10,7 +10,8 @@ module.exports = function (grunt) {
     grunt.initConfig({
         index: {
             main: {
-                archiveDirectory: 'archive/'
+                archiveDirectory: 'archive/',
+                outputFile:'archive.json'
             }
         }
     })
@@ -30,5 +31,5 @@ function generateIndex() {
         .map(function(file){
             return file.split('\.json')[0];
         });
-    fs.writeFileSync('archives.json', JSON.stringify(archives));
+    fs.writeFileSync(this.data.outputFile, JSON.stringify(archives));
 }
